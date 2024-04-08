@@ -22,9 +22,9 @@
 
    <developers>
        <developer>
-           <id>romankh3</id>
-           <name>Roman Beskrovnyi</name>
-           <email>roman.beskrovnyy@gmail.com</email>
+           <id>Sergey</id>
+           <name>Slusarev</name>
+           <email>Azoniques@gmail.com</email>
        </developer>
    </developers>
 
@@ -43,6 +43,7 @@
        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
        <javadoc.plugin.version>3.1.1</javadoc.plugin.version>
        <source.plugin.version>3.2.0</source.plugin.version>
+
    </properties>
 
    <dependencies>
@@ -67,6 +68,7 @@
 
    <build>
        <plugins>
+
            <plugin>
                <groupId>org.apache.maven.plugins</groupId>
                <artifactId>maven-source-plugin</artifactId>
@@ -80,6 +82,7 @@
                    </execution>
                </executions>
            </plugin>
+
            <plugin>
                <groupId>org.apache.maven.plugins</groupId>
                <artifactId>maven-javadoc-plugin</artifactId>
